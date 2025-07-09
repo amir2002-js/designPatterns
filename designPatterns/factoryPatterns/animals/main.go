@@ -15,6 +15,5 @@ func main() {
 	wolf2 := wolfFactory.CreateAnimal("omega wolf", 10, 80)
 	wolf2.Eating()
 	wolf.Walking()
-	wolf.Howling()
-
+	//wolf.Howling()  خطا چون کامپایلر نمیدونه ما چه موجودی ساختیم
 }
