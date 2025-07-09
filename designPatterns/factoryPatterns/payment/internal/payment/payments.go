@@ -1,4 +1,4 @@
-package paymentSystem
+package payment
 
 type PaymentMethod interface {
 	Pay(amount float64) error
